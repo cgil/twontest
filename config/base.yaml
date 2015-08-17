@@ -1,0 +1,14 @@
+role: base
+extends:
+    - secrets.yaml
+application_identifier: twontest
+flask:
+    init:
+      import_name: twontest
+views:
+    - twontest.main
+debug:
+    enabled: true
+    server:
+        host: 127.0.0.1
+        port: 4267
