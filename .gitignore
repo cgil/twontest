@@ -1,6 +1,6 @@
 *.unison*
 *.py[cod]
-.pyc
+*.pyc
 *.orig
 # No local dbs
 *.db
