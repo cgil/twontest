@@ -41,6 +41,7 @@ pip-log.txt
 
 # Ignore python virtual environments
 env
+env/*
 
 # Ignore local logs
 logs/*
